@@ -1,5 +1,5 @@
 require './lib/room'
-
+require "rspec"
 RSpec.describe Room do
   describe "Iteration 1" do
     it "exists" do
