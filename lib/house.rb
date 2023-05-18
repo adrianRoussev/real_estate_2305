@@ -13,4 +13,9 @@ class House
           @rooms <<@room
         @house_details.merge!({@room.category =>   rooms.find_all{|x| x.category == @room.category}}) 
       end
+
+      def rooms_from_category(cat)
+        rooms.find_all{|x| x.category == cat}
+        end
+      
     
