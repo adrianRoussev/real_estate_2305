@@ -1,3 +1,4 @@
+require './room'
 class House
     attr_reader :price, :address, :rooms, :house_details, :room
     def initialize (price, address, above_market_average = false)
